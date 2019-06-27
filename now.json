@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "alias": [
+    "jwl.im"
+  ],
+  "routes": [
+    {
+      "src": "/twitter",
+      "status": 301,
+      "headers": {
+        "Location": "https://twitter.com/jameswlane"
+      }
+    },
+    {
+      "src": "/linkedin",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.linkedin.com/in/jameswlane/"
+      }
+    },
+    {
+      "src": "/facebook",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.facebook.com/james.w.lane.3rd"
+      }
+    },
+    {
+      "src": "/news",
+      "status": 301,
+      "headers": {
+        "Location": "https://tinyletter.com/jameswlane"
+      }
+    },
+    {
+      "src": "/twitch",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.twitch.tv/jameswlane"
+      }
+    },
+    {
+      "src": "/github",
+      "status": 301,
+      "headers": {
+        "Location": "https://github.com/jameswlane/ama"
+      }
+    },
+    {
+      "src": "/npm",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.npmjs.com/~james.w.lane"
+      }
+    },
+    {
+      "src": "/patreon",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.patreon.com/jameswlane"
+      }
+    },
+    {
+      "src": "/paypal",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.paypal.me/jameswlane"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://jameswlane.com/$1"
+      }
+    }
+  ]
+}
