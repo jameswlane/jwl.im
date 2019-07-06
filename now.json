@@ -68,6 +68,27 @@
       }
     },
     {
+      "src": "/wp-login.php",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    },
+    {
+      "src": "/login",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    },
+    {
+      "src": "/wp-login",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    },
+    {
       "src": "/(.*)",
       "status": 301,
       "headers": {
